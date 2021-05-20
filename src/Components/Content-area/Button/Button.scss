@@ -1,17 +1,21 @@
+$fontColor: #473231;
+
 .title-btn {
-  color: blue;
+  color: $fontColor;
   font-size: 36px;
   background-color: white;
   padding: 20px;
-  width: 300px;
+  width: 70%;
   border-radius: 20px;
   margin: 30px auto 0 auto;
+  transition: 1s;
 }
 
 .title-btn:hover {
-  background-color: rgb(215,215,215);
+  background-color: rgb(200,200,200) ;
+  transition: 0.1s;
 }
 
 .title-btn:active {
-  background-color: rgb(150,180,170);
+  background-color: rgb(180,180,180);
 }

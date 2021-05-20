@@ -1,4 +1,4 @@
-$headerColor: indigo;
+$headerColor: #E00A00;
 
 * {
   box-sizing: border-box;
@@ -24,6 +24,7 @@ $headerColor: indigo;
     align-items: center;
     .item {
       h1 {
+        font-size: 38px;
         color: white;
         font-family: "Arial Narrow";
       }
