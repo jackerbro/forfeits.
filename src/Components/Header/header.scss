@@ -1,0 +1,32 @@
+$headerColor: indigo;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  background-color: $headerColor;
+  .list {
+    height: 50px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .item {
+      h1 {
+        color: white;
+        font-family: "Arial Narrow";
+      }
+    }
+  }
+}

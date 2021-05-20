@@ -1,0 +1,17 @@
+.title-btn {
+  color: blue;
+  font-size: 36px;
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 20px;
+  margin: 30px auto 0 auto;
+}
+
+.title-btn:hover {
+  background-color: rgb(215,215,215);
+}
+
+.title-btn:active {
+  background-color: rgb(150,180,170);
+}
