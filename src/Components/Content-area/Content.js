@@ -1,15 +1,16 @@
 import React from "react";
 import './Content.scss';
+import {Link} from "react-router-dom";
 
 function Content() {
 
     return (
         <main className="main">
             <nav className="list">
-                <a className="btn" href="#">Start</a>
-                <a className="btn" href="#">Add tasks</a>
-                <a className="btn" href="#">Info</a>
-                <a className="btn" href="#">Exit</a>
+                <Link className="btn" to="/Start">Start</Link>
+                <Link className="btn" to="/Tasks">Add tasks</Link>
+                <Link className="btn" to="/Info">Info</Link>
+                <Link className="btn" to="/Exit">Exit</Link>
             </nav>
 
         </main>

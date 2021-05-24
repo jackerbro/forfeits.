@@ -22,3 +22,12 @@
   margin: 10px 0px;
   height: 5rem;
 }
+
+.btn:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.btn:active {
+  background-color: rgb(100,2,2);
+}
