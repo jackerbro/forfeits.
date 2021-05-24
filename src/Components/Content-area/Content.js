@@ -1,21 +1,17 @@
 import React from "react";
 import './Content.scss';
 
-import Button from "./Button/Button";
-
-const arrayName = [
-    {name: "Start"},
-    {name: "Record"},
-    {name: "Info"},
-    {name: "Exit"},]
-
 function Content() {
-    let buttonList = arrayName.map(btn =>
-        <Button name={btn.name}/>)
 
     return (
         <main className="main">
-            {buttonList}
+            <nav className="list">
+                <a className="btn" href="#">Start</a>
+                <a className="btn" href="#">Add tasks</a>
+                <a className="btn" href="#">Info</a>
+                <a className="btn" href="#">Exit</a>
+            </nav>
+
         </main>
     )
 }
